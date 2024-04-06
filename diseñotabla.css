@@ -1,0 +1,25 @@
+#customers {
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, h1 {
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) { background-color: aqua;
+}
+
+#customers tr:nth-child(odd) { background-color:orange}
+
+#customers tr:hover { background-color: #b444be; }
+
+#customers th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #b444be;
+    color: #000000;
+}
